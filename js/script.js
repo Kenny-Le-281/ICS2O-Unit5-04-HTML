@@ -28,7 +28,7 @@ function check() {
   var age = document.getElementById("age").value
 
   // process and output
-  if ((tuesday == true || thursday == true) || (age > 12 && age < 21)) {
+  if ((tuesday == true || thursday == true) && (age > 12 && age < 21)) {
     document.getElementById("museum").innerHTML = 'You are eligible for student pricing!'
   } else {
     document.getElementById("museum").innerHTML = 'You must pay regular price.'
