@@ -16,7 +16,7 @@ if (navigator.serviceWorker) {
 /**
  * This function determins museum admission price
  */
-function checked() {
+function check() {
   // input
   const sunday = document.getElementById("sunday").checked
   const monday = document.getElementById("monday").checked
