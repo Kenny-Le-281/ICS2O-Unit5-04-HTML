@@ -14,7 +14,7 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function determins museum admission price
+ * This function determines museum admission price
  */
 function check() {
   // input
